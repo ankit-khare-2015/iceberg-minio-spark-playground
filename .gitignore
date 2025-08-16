@@ -1,0 +1,86 @@
+# ------------------------
+# OS / Editor junk
+# ------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# ------------------------
+# Python / Jupyter
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+.venv/
+.env/
+.venv*/
+.venv/
+.envrc
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# ------------------------
+# Logs / Temp
+# ------------------------
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.old
+nohup.out
+
+# Spark event logs
+spark-warehouse/
+derby.log
+metastore_db/
+
+# ------------------------
+# Docker / Compose
+# ------------------------
+*.pid
+*.pid.lock
+*.sock
+.docker/
+docker-compose.override.yml
+
+# ------------------------
+# Build / Generated artifacts
+# ------------------------
+target/
+build/
+dist/
+*.tar.gz
+*.zip
+
+# ------------------------
+# Project-specific
+# ------------------------
+# Don’t commit downloaded JARs
+jars/
+
+# Don’t commit MinIO local data
+minio/data/
+
+# Don’t commit warehouse data (Iceberg tables)
+warehouse/
+
+# Don’t commit Spark checkpoint/temp dirs
+checkpoints/
+tmp/
+temp/
+
+# ------------------------
+# Notebook outputs (optional)
+# ------------------------
+# Uncomment if you want to strip notebook cell outputs
+# *.ipynb
