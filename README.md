@@ -1,4 +1,5 @@
 
+![Project Architecture](docs/architecture.png)
 #  Iceberg Minion Spark Local Playground
 
 *A hands-on project to explore Apache Iceberg features with Spark + MinIO + Jupyter*
@@ -111,6 +112,27 @@ This will run steps:
 * Step 5 → Schema evolution
 
 👉 SQL outputs are shown **cleanly in terminal**.
+
+
+1. Base Table Schema (local.airline.flights)
+
+| Column             | Type      | Description                               |
+| ------------------ | --------- | ----------------------------------------- |
+| `flight_id`        | STRING    | Unique flight identifier (e.g., `LH9001`) |
+| `origin`           | STRING    | Departure airport code (e.g., `FRA`)      |
+| `dest`             | STRING    | Destination airport code (e.g., `LHR`)    |
+| `scheduled_dep_ts` | TIMESTAMP | Scheduled departure time                  |
+| `actual_dep_ts`    | TIMESTAMP | Actual departure time (nullable)          |
+
+2. Sample Data
+
+| flight\_id | origin | dest | scheduled\_dep\_ts  | actual\_dep\_ts     |
+| ---------- | ------ | ---- | ------------------- | ------------------- |
+| LH9001     | FRA    | LHR  | 2025-01-01 10:00:00 | 2025-01-01 10:05:00 |
+| LH9002     | FRA    | JFK  | 2025-01-01 12:00:00 | 2025-01-01 12:10:00 |
+| LH9003     | MUC    | SIN  | 2025-01-02 08:00:00 | NULL                |
+
+
 
 3. **Interactive playground (Jupyter)**
 
