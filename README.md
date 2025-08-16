@@ -6,7 +6,7 @@
 
 ---
 
-## 🔹 1. Why This Project?
+## 1. Why This Project?
 
 Modern analytics workloads require handling **huge datasets** with:
 
@@ -60,7 +60,7 @@ Both **Delta Lake** and **Apache Iceberg** are table formats built on open data 
 
 ---
 
-## 🔹 5. Project Structure
+## 5. Project Structure
 
 ```
 .
@@ -79,16 +79,16 @@ Both **Delta Lake** and **Apache Iceberg** are table formats built on open data 
 
 ---
 
-## 🔹 6. Why MinIO?
+## 6. Why MinIO?
 
 We use **MinIO** as a local, S3-compatible object store → it simulates cloud storage (AWS S3) but runs locally in Docker.
 Iceberg tables are stored as **metadata + Parquet files in MinIO buckets**.
 
 ---
 
-## 🔹 7. How to Run
+## 7. How to Run
 
-### 🚀 Quickstart
+###  Quickstart
 
 1. **Clone & start infra**
 
@@ -111,7 +111,7 @@ This will run steps:
 * Step 4 → Time travel
 * Step 5 → Schema evolution
 
-👉 SQL outputs are shown **cleanly in terminal**.
+SQL outputs are shown **cleanly in terminal**.
 
 
 1. Base Table Schema (local.airline.flights)
@@ -167,7 +167,7 @@ The notebook provides:
 
 ---
 
-## 🔹 10. References
+## 10. References
 
 * [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/)
 * [Delta Lake vs Iceberg](https://delta.io/)
