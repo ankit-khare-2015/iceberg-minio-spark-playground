@@ -142,6 +142,7 @@ Then open: [http://localhost:8888](http://localhost:8888)
 
 Run the **`iceberg_quickstart.ipynb`** notebook → experiment with queries + see effects after each step.
 
+![Jupyter Notebook](docs/jupyter-notebook.png)
 ---
 
 ## 🔹 8. Iceberg Quickstart Notebook
