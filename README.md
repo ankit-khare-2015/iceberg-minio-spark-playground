@@ -92,17 +92,16 @@ Iceberg tables are stored as **metadata + Parquet files in MinIO buckets**.
 1. **Clone & start infra**
 
 ```bash
-git clone <this-repo>
-cd iceberg-airline-demo
-make up
+git clone https://github.com/ankit-khare-2015/iceberg-minio-spark-playground.git
+cd git clone https://github.com/ankit-khare-2015/iceberg-minio-spark-playground.git
+make up 
 ```
 
-2. **Run demo sequentially**
+`make up` will set up everything you need: all Docker images, containers (Spark, MinIO,Jupyter and notebooks), and buckets.
 
 ```bash
-./demo.sh
+make demo 
 ```
-
 This will run steps:
 
 * Step 1 → Create + Insert
@@ -115,9 +114,7 @@ This will run steps:
 
 3. **Interactive playground (Jupyter)**
 
-```bash
-make jupyter
-```
+Use Jupyter notebook 
 
 Then open: [http://localhost:8888](http://localhost:8888)
 
@@ -129,12 +126,11 @@ Run the **`iceberg_quickstart.ipynb`** notebook → experiment with queries + se
 
 The notebook provides:
 
-* 📊 Queries for each step (INSERT, MERGE, Time Travel, Schema Evolution)
-* ➡️ Arrow-marked outputs to highlight *what changed*
-* ⚡ Automation cells → run all steps in sequence
-* 🏟️ A **playground** → try your own queries
+* Queries for each step (INSERT, MERGE, Time Travel, Schema Evolution)
+* Outputs to highlight *what changed*
+* Run all steps in sequence
+* Try your own queries
 
-*(📸 Placeholder for screenshots here)*
 
 ---
 
