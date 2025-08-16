@@ -94,7 +94,7 @@ Iceberg tables are stored as **metadata + Parquet files in MinIO buckets**.
 
 ```bash
 git clone https://github.com/ankit-khare-2015/iceberg-minio-spark-playground.git
-cd git clone https://github.com/ankit-khare-2015/iceberg-minio-spark-playground.git
+cd iceberg-minio-spark-playground
 make up 
 ```
 
@@ -118,7 +118,7 @@ SQL outputs are shown **cleanly in terminal**.
 
 | Column             | Type      | Description                               |
 | ------------------ | --------- | ----------------------------------------- |
-| `flight_id`        | STRING    | Unique flight identifier (e.g., `LH9001`) |
+| `flight_id`        | STRING    | Unique flight identifier (e.g., `LZ9001`) |
 | `origin`           | STRING    | Departure airport code (e.g., `FRA`)      |
 | `dest`             | STRING    | Destination airport code (e.g., `LHR`)    |
 | `scheduled_dep_ts` | TIMESTAMP | Scheduled departure time                  |
@@ -145,7 +145,7 @@ Run the **`iceberg_quickstart.ipynb`** notebook → experiment with queries + se
 ![Jupyter Notebook](docs/jupyter-notebook.png)
 ---
 
-## 🔹 8. Iceberg Quickstart Notebook
+## 8. Iceberg Quickstart Notebook
 
 The notebook provides:
 
