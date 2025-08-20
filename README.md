@@ -4,6 +4,8 @@
 
 *A hands-on project to explore Apache Iceberg features with Spark + MinIO + Jupyter*
 
+![Demo](docs/demo.gif)
+
 ---
 
 ## 1. Why This Project?
