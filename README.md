@@ -92,6 +92,10 @@ Both **Delta Lake** and **Apache Iceberg** are table formats built on open data 
 We use **MinIO** as a local, S3-compatible object store → it simulates cloud storage (AWS S3) but runs locally in Docker.
 Iceberg tables are stored as **metadata + Parquet files in MinIO buckets**.
 
+You can always explore minio at below,
+http://localhost:9001/login
+username : minio
+pass : minio123
 ---
 
 ## 7. How to Run
