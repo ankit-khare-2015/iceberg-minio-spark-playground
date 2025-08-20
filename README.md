@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="docs/architecture.png" alt="Architecture" 
-width="600" height="600"/>
+width="800" height="400"/>
 </p>
 #  Iceberg Minion Spark Local Playground
 
