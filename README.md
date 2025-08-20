@@ -96,6 +96,7 @@ You can always explore minio at below,
 http://localhost:9001/login
 username : minio
 pass : minio123
+
 ---
 
 ## 7. How to Run
