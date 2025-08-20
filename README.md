@@ -1,10 +1,17 @@
 
 ![Project Architecture](docs/architecture.png)
+
+<p align="center">
+<img src="docs/docs/architecture.png" alt="Architecture" 
+width="500" height="600"/>
+</p>
 #  Iceberg Minion Spark Local Playground
 
 *A hands-on project to explore Apache Iceberg features with Spark + MinIO + Jupyter*
 
 ![Demo](docs/demo.gif)
+
+
 
 ---
 
