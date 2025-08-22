@@ -1,4 +1,4 @@
-[![Star on GitHub](https://img.shields.io/github/stars/ankit-khare-2015/docker-basics-101?style=social)](https://github.com/ankit-khare-2015/iceberg-minio-spark-playground/stargazers)
+[![Star on GitHub](https://img.shields.io/github/stars/ankit-khare-2015/iceberg-minio-spark-playground?style=social)](https://github.com/ankit-khare-2015/iceberg-minio-spark-playground/stargazers)
 
 
 
