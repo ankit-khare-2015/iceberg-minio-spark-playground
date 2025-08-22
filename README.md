@@ -1,3 +1,4 @@
+[![Star on GitHub](https://img.shields.io/github/stars/ankit-khare-2015/docker-basics-101?style=social)](https://github.com/ankit-khare-2015/docker-basics-101/stargazers)
 
 <p align="center">
 <img src="docs/architecture.png" alt="Architecture" 
